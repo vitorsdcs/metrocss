@@ -1,0 +1,19 @@
+#coralexp .rota {
+	background-color: #ffffff;
+	border: 5px solid #f04d22;
+    height: 1px;
+}
+
+#coralexp #coralexp005 {
+    width: 41px;
+	left: 613px;
+    top: 413px;
+    border-right-width: 0px;
+}
+
+#coralexp #coralexp006 {
+	width: 442px;
+    left: 648px;
+    top: 425px;
+    border-left-width: 0px;
+}

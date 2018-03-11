@@ -1,0 +1,117 @@
+body {
+	font-family: Arial;
+}
+
+header {
+	display:none;
+	background-color: #000000;
+	bottom: auto;
+	height: 70px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 500;
+}
+
+header #wrapper {
+	padding: 0 30px;
+}
+
+header h1 {
+	color: #ffffff;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+#mapa {
+	background-color: #e6e7e9;
+	height: 1046px;
+	position: relative;
+	width: 1326px;
+}
+
+.linha li {
+	position: absolute;
+	text-align: center;
+}
+
+.estacao {
+	height: 6px;
+    width: 6px;
+    display: block;
+    background: #0095D9;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    z-index: 3;
+    line-height: 6px;
+}
+
+.monotrilho .estacao {
+	height: 5px;
+	width: 5px;
+}
+
+strong {
+    font-size: 12px;
+    font-weight: bold;
+	letter-spacing: -0.3;
+	position: absolute;
+}
+
+.extenso {
+	white-space: nowrap;
+}
+
+.direita {
+	left: 13px;
+	text-align: left;
+}
+
+.esquerda {
+    left: -61px;
+    text-align: right;
+}
+
+small {
+    font-size: 7px;
+    position: relative;
+	letter-spacing: 0;
+}
+
+.rota {
+	border-radius: 5px;
+	height: 11px;
+	width: 11px;
+	z-index: 2;
+}
+
+.monotrilho .rota {
+	height: 9px;
+	width: 9px;
+}
+
+.expresso .rota {
+	height: 3px;
+	width: 3px;
+	z-index: 1;
+}
+
+.corredor .rota {
+	height: 6px;
+	width: 6px;
+}
+
+.rot45 {
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+.rot315 {
+	-ms-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+}

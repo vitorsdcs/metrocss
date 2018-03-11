@@ -1,0 +1,28 @@
+#prata .rota {
+	background-color: #858d90;
+}
+
+#prata001 {
+	left: 936px;
+	top: 584px;
+}
+
+#prata001 strong {
+	bottom: 0px;
+	line-height: 1;
+}
+
+#prata002 {
+	left: 983px;
+	top: 584px;
+}
+
+#prata002 strong {
+	bottom: 2px;
+}
+
+#prata003 {
+	left: 912px;
+    top: 583px;
+    width: 80px;
+}
